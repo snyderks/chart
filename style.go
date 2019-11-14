@@ -43,8 +43,9 @@ func StyleTextDefaults() Style {
 
 // Style is a simple style set.
 type Style struct {
-	Hidden  bool
-	Padding Box
+        HiddenOnLegend bool
+	Hidden         bool
+	Padding        Box
 
 	ClassName string
 
